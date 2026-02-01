@@ -1,0 +1,133 @@
+/* ================= CONTAINER ================= */
+
+.my-bookings-container {
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+/* ================= CENTER / LOADING ================= */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+/* ================= TITLE ================= */
+
+.title {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+/* ================= TABS ================= */
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 12px 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #6b7280;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  color: #000;
+  border-bottom: 3px solid #000;
+}
+
+/* ================= CARD ================= */
+
+.card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+/* ================= CARD HEADER ================= */
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* ================= META ================= */
+
+.meta {
+  margin-top: 6px;
+  color: #374151;
+  font-size: 14px;
+}
+
+/* ================= STATUS ================= */
+
+.status {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.status.pending {
+  background-color: #FEF3C7;
+}
+
+.status.completed {
+  background-color: #DCFCE7;
+}
+
+/* ================= VIEW BUTTON ================= */
+
+.view-btn {
+  margin-top: 14px;
+  padding: 12px 0;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  opacity: 0.9;
+}
+
+/* ================= EMPTY ================= */
+
+.empty {
+  text-align: center;
+  margin-top: 40px;
+  color: #6b7280;
+  font-size: 15px;
+}
+
+/* ================= LOADING ================= */
+
+.loading {
+  text-align: center;
+  margin-top: 60px;
+  color: #6b7280;
+  font-size: 15px;
+}

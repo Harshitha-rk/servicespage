@@ -1,0 +1,166 @@
+.booking-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 48px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Back */
+.back-arrow {
+  background: none;
+  border: 1px solid #ddd;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+/* LAYOUT */
+.booking-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px; /* COMPACT */
+  gap: 56px;
+  align-items: flex-start;
+}
+
+/* LEFT */
+.calendar-section h1 {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* DROPDOWNS */
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.row select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* CALENDAR */
+.scheduler-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 40px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 48px);
+  grid-auto-rows: 48px;
+  gap: 12px;
+}
+
+.day-label {
+  height: 28px;
+  font-size: 13px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty {
+  width: 48px;
+  height: 48px;
+}
+
+.date {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background: #f3f3f3;
+  border: 1px solid #e4e4e4;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.date.selected {
+  background: #0b66ff;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* TIME */
+.time-section h4 {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.time-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.time-box {
+  padding: 10px 0;
+  border-radius: 8px;
+  background: #f3f3f3;
+  border: 1px solid #e4e4e4;
+}
+
+.time-box.selected-time {
+  background: #0b66ff;
+  color: #fff;
+}
+
+/* RIGHT SUMMARY (MINIMAL FIX) */
+.summary {
+  border-left: 1px solid #eee;
+  padding-left: 20px;
+}
+
+.summary h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.service-card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+}
+
+.service-card strong {
+  font-size: 13px;
+}
+
+.service-card p {
+  font-size: 12px;
+  margin: 2px 0;
+  color: #666;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.next-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-top: 16px;
+  background: #0b66ff;
+  color: #fff;
+  border: none;
+}

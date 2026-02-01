@@ -1,0 +1,86 @@
+/* ================= CONTAINER ================= */
+
+.booking-details-container {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* ================= HEADER ================= */
+
+.header {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+/* ================= SECTION TITLE ================= */
+
+.section {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+/* ================= CARD ================= */
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+/* ================= SERVICE ROW ================= */
+
+.service-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* ================= ROW ================= */
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ================= TEXT ================= */
+
+.bold {
+  font-weight: 700;
+}
+
+/* ================= BUTTON ================= */
+
+.back-btn {
+  margin-top: 24px;
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  opacity: 0.9;
+}
+
+/* ================= STATES ================= */
+
+.loading,
+.empty {
+  text-align: center;
+  margin-top: 60px;
+  color: #6b7280;
+  font-size: 15px;
+}
